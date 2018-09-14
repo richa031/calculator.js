@@ -1,0 +1,117 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 50px;
+}
+.flexbox{
+    margin-top: 50px;
+    margin-left: 500px;
+    
+   
+}
+.input{
+    background-color: black;
+    height: 92px;
+    width: 405px;
+}
+.save{
+    height: 40px;
+    position: relative;
+    top: 10px;
+    color: blue;
+    text-align: right;
+}
+.inum{
+    text-align: right;
+    height: 52px;
+    width: 405px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    border: none;
+    position: relative;
+    top: 0px;
+}
+.flex-container1 {
+  display: flex;
+  align-items: stretch;
+  background-color: black;
+  width: 405px;
+  padding: 7px 7px 0px 7px;;
+}
+
+.flex-container1 > button {
+  background-color:darkgrey;
+  color: white;
+  width: 100px;
+  margin: 1px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container2 {
+  display: flex;
+  align-items: stretch;
+  background-color: black;
+  width: 405px;
+  padding: 0px 7px 0px 7px;;
+}
+.flex-container2 > button {
+  background-color: dimgrey;
+  color: white;
+  width: 100px;
+  margin: 1px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container3 {
+  display: flex;
+  align-items: stretch;
+  background-color: black;
+  width: 405px;
+  padding: 0px 7px 0px 7px;;
+}
+
+.flex-container3 > button {
+  background-color: dimgrey;
+  color: white;
+  width: 100px;
+  margin: 1px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.flex-container4 {
+  display: flex;
+  align-items: stretch;
+  background-color: black;
+  width: 405px;
+  padding: 0px 7px 7px 7px;;
+}
+
+.flex-container4 > button {
+  background-color: dimgrey;
+  color: white;
+  width: 100px;
+  margin: 1px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
