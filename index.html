@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      
+    <title>CALCULATOR</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>CALCULATOR</h1>
+        <div class="calculator">
+            <div class="flexbox">
+                <div class="input inum calculator_display" id="input"></div>
+                <div class="calculator_keys">
+            <div class="flex-container1">
+                <button style="flex-basis:200px; background-color:red" id="delete" class="key-operator" data-action="clear">AC</button>
+                <button style="background-color: red" id="backOne" class="key-operator" data-action="deletion">CE</button>
+                <button id="divide" data-action="divide" class="key-operator">/</button>
+             </div>
+            
+             <div class="flex-container2">
+               <button id="7">7</button>
+               <button id="8">8</button>
+               <button id="9">9</button> 
+               <button style=" background-color:darkgrey" id="subtract" class="key-operator" data-action="subtract">-
+               </button>
+             </div>
+                
+             <div class="flex-container2">
+               <button id="4">4</button>
+               <button id="5">5</button>
+               <button id="6">6</button> 
+               <button style=" background-color:darkgrey" id="add" data-action="add" class="key-operator">+
+               </button>
+             </div>
+                
+             <div class="flex-container3">
+               <button id="1">1</button>
+               <button id="2">2</button>
+               <button id="3">3</button> 
+               <button style="background-color:darkgrey" id="multiply" data-action="multiply" class="key-operator">x</button>
+             </div>
+                
+             <div class="flex-container4">
+                <button style="flex-basis:200px" id="0">0</button>
+                <button id="dot" data-action="decimal">.</button>
+                <button style="background-color: blue" id="equals" data-action="calculate" class="key-equal">=</button>
+              
+             </div>
+                </div>
+            </div>
+        
+        </div>
+    	    
+    <script src="jscript.js"></script>
+    
+</body>
+</html>
